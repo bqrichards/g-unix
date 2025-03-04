@@ -5,9 +5,10 @@
 These are the commands I would like to write in Go:
 
 - [X] hexdump
-- [ ] tee
+- [X] tee
 - [ ] tree
 - [ ] jq
+- [ ] bash/Shell
 
 ## Building
 
