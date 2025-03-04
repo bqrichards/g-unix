@@ -31,6 +31,7 @@ func main() {
 	chunk := make([]byte, chunkSize)
 	currentChunk := 0
 
+	// Loop until EOF
 	for {
 		n, err := reader.Read(chunk) // load chunk into buffer
 		if err != nil {
