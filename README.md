@@ -2,8 +2,12 @@
 
 ## Commands
 
-### GHexDump
-A hexdump-like command written in Go.
+These are the commands I would like to write in Go:
+
+- [X] hexdump
+- [ ] tee
+- [ ] tree
+- [ ] jq
 
 ## Building
 
