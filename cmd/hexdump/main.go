@@ -15,8 +15,8 @@ func main() {
 	flag.Parse()
 
 	if *(filePtr) == "" {
-		fmt.Println("Welcome to GHexDump!\nThis is a hexdump command written in Golang.\nUsage: ghexdump <file>")
-		return
+		fmt.Fprintln(os.Stderr, "Usage: ghexdump --file <file>")
+		os.Exit(1)
 	}
 
 	// Open file

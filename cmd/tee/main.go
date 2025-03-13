@@ -15,8 +15,8 @@ func main() {
 	flag.Parse()
 
 	if *(outFlag) == "" {
-		fmt.Fprintf(os.Stderr, "Usage: tee <outfile>")
-		return
+		fmt.Fprintln(os.Stderr, "Usage: tee --out <outfile>")
+		os.Exit(1)
 	}
 
 	// Create writer for file
